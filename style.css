@@ -6,8 +6,8 @@ body {
     align-items: center;
     min-height: 100vh;
     
-    -webkit-filter: url("#wavy");
-            filter: url("#wavy");
+    -webkit-filter: url(#wavy);
+            filter: url(#wavy);
     /* transform: translateZ(0); */
 }
 
@@ -22,8 +22,8 @@ h2 {
     font-family: sans-serif;
     font-weight: 900;
     font-size: 5em;
-    -webkit-animation: animate 20s linear infinite;
-            animation: animate 20s linear infinite;
+    /* -webkit-animation: animate 20s linear infinite;
+            animation: animate 20s linear infinite; */
 }
  @-webkit-keyframes animate {
     0% {
