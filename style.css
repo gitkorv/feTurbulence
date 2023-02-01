@@ -5,8 +5,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    filter: url(#wavy);
-    transform: translateZ(0);
+    
+    -webkit-filter: url(#wavy);
+            filter: url(#wavy);
+    /* transform: translateZ(0); */
 }
 
 svg {
