@@ -6,8 +6,8 @@ body {
     align-items: center;
     min-height: 100vh;
     
-    -webkit-filter: url(#wavy);
-            filter: url(#wavy);
+    -webkit-filter: url("#wavy");
+            filter: url("#wavy");
     /* transform: translateZ(0); */
 }
 
@@ -15,13 +15,6 @@ svg {
     width: 0;
     height: 0;
 }
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
 h2 {
     margin: 0;
