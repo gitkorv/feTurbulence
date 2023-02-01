@@ -6,6 +6,7 @@ body {
     align-items: center;
     min-height: 100vh;
     filter: url(#wavy);
+    transform: translateZ(0);
 }
 
 svg {
