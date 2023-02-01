@@ -16,19 +16,39 @@ svg {
     height: 0;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 h2 {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     font-weight: 900;
     font-size: 5em;
-    /* animation: animate 20s linear infinite; */
+    -webkit-animation: animate 20s linear infinite;
+            animation: animate 20s linear infinite;
 }
- /* @keyframes animate {
+ @-webkit-keyframes animate {
     0% {
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
     }
     100% {
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
     }
- } */
+ }
+ @keyframes animate {
+    0% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+ }
